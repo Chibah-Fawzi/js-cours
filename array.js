@@ -9,6 +9,6 @@ ma_liste.pop(); // Retirer un élement à la fin de la liste
 ma_liste.shift(); // Retirer un élement au début de la liste
 
 const months = ["Jan", "March", "April", "June"];
-months.splice(1, 0, "Feb"); // Permet d'ajouter ou de retirer des élements au milieu
+months.splice(1, 2, "Feb"); // Permet d'ajouter ou de retirer des élements au milieu
 
 console.log(ma_liste);

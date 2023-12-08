@@ -2,10 +2,11 @@
 // confirm("Are you sure ?");
 // prompt("hello");
 
-var a = 10; // TYPE NUMBER
-// var b = "10"; // TYPE STRING
-var b = 50;
-var c = 150;
+// var a = 10; // TYPE NUMBER
+// // var b = "10"; // TYPE STRING
+// var b = 50;
+// var c = 150;
+var d = null;
 
 // // Arithmétique
 // console.log(a + b);
@@ -23,8 +24,11 @@ var c = 150;
 
 // console.log(a);
 
-// // == : Compare les valeurs
-// // === : Compare les valeurs et les type des variables
+// var a = 10,
+//   b = 120;
+
+// == : Compare les valeurs
+// === : Compare les valeurs et les type des variables
 // console.log(a === b);
 
 // // LOGIQUE COMBINATOIRE
@@ -34,11 +38,13 @@ var c = 150;
 // // CONDITIONS
 // if (a > c) {
 //   console.log("Le a est plus petit que c");
+// } else if (a == c) {
+//   console.log("Le a égale à c");
 // } else {
 //   console.log("Le a n'est pas plus grand que c");
 // }
 
-// Script Manége
+// // Script Manége
 // var age = 10;
 // var taille = 1.55;
 // var accompagné = true;
@@ -90,18 +96,18 @@ var c = 150;
 
 // // FUNCTIONS
 
-function Bonjour() {
-  alert("Bonjour à vous");
-}
+// function Bonjour() {
+//   alert("Bonjour à vous");
+// }
 
-function f(x) {
-  console.log(x + 10);
-}
+// function f(x) {
+//   console.log(x + 10);
+// }
 
-f(10);
+// f(10);
 
-function Hello(nom, age) {
-  console.log("Hello " + nom + " âgé de " + age + " ans");
-}
+// function Hello(nom, age) {
+//   console.log("Hello " + nom + " âgé de " + age + " ans");
+// }
 
-Hello("Said", 40);
+// Hello("Said", 40);
